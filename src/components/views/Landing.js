@@ -4,6 +4,9 @@ import FormSignIn from "../forms/FormSignIn";
 import StepsTo from "../extras/Step";
 import NavbarPage from "../partials/Navbar";
 import BtnLanding from "../model/BtnLanding";
+import DeleteUserBtn from "../user/DeleteUserBtn";
+import ModifyUserBtn from "../user/ModifyUserBtn";
+import InputTicket from "../tickets/InputTicket";
 
 function Landing(){
     return(
@@ -12,6 +15,9 @@ function Landing(){
             <NavbarPage></NavbarPage>
             <FormSingUp></FormSingUp>
             <FormSignIn></FormSignIn>
+            <DeleteUserBtn></DeleteUserBtn>
+            <ModifyUserBtn></ModifyUserBtn>
+            <InputTicket></InputTicket>
                 <p>Bienvenido a Easy Pays</p>
                 <h1>Gestionar tus Gastos Nunca fue tan fácil</h1>
                 <p>Te brindamos soluciones para que puedas calcular tus gastos, analizarlos
